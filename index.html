@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang=fr>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/section1.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <link rel="stylesheet" href="css/media_query.css">
+    </head>
+
+    <body>
+        <!--Menu -->
+        <header class="container_main">
+             <div class="container_logo">
+                <img src="images/logo/Booki.png" alt="logo Booki" class="nav_img">
+            </div>
+            <div class="container_nav">
+                <nav class="nav">
+                    <div class="nav_links">
+                        <a href="#hébergement" class="nav_link_text">Hébergements</a>
+                        <a href="#activité" class="nav_link_text">Activités</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- body  -->
+
+        <main class="body">
+            <!-- Title -->
+            <div class="body_text">
+                <h1 class="body_text_title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="body_text_sub">En plein centre-ville ou en pleine nature</p>
+            </div>
+
+            <!-- search -->
+            <div class="body_search">
+                <i class="fa-solid fa-location-dot body_search_icon"></i>
+                <input type="text" placeholder="Marseille, France" class="body_search_city" >
+                <p class="body_search_button">Rechercher</p>
+                <i class="fas fa-search magnifying_glass"></i>
+            </div>
+
+            <!-- Filter -->
+            <div class="body_filter">
+                <p class="body_filter_title">Filtres</p>
+
+                <div class="body_filter_block">
+                   <div class="body_filter_button">
+                        <i class="fa-solid fa-money-bill-wave filter_icon"></i>
+                        <p class="filter_text">Économique</p>
+                    </div>
+
+                    <div class="body_filter_button">
+                        <i class="fa-solid fa-person filter_icon"></i>
+                        <p class="filter_text">Familial</p>
+                    </div>
+
+                    <div class="body_filter_button">
+                        <i class="fa-solid fa-heart filter_icon"></i>
+                        <p class="filter_text">Romantique</p>
+                    </div>
+
+                    <div class="body_filter_button">
+                        <i class="fa-solid fa-fire filter_icon"></i>
+                        <p class="filter_text">Nos pépites</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="body_info">
+                <i class="fa-solid fa-info body_info_icon"></i>
+                <p class="body_info_text">Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+
+            <!-- Lodging-->
+            <section class="lodging">
+                <div class="body-lodging">
+                    <h2 class="lodging_title" id="hébergement">Hébergements à Marseille</h2>
+
+                    <div class="lodging_block">
+                        <!-- Hôtel du port -->
+                        <article class="lodging_box">
+                            <img src="images/hebergements/fred-kleber.jpg" alt="Hôtel du port" class="lodging_box_img">
+                            <h3 class="lodging_box_title">Hôtel du port</h3>
+                            <p class="lodging_box_price">
+                                Nuit à partir de 52<span class="euro">€</span>
+                            </p>
+                            <div class="lodging_box_note">
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star gris"></i> 
+                            </div>
+                        </article>
+                        <!-- Hôtel chez Amina -->
+                        <article class="lodging_box">
+                            <img src="images/hebergements/febrian-zakaria.jpg" alt="Hôtel Chez Amina" class="lodging_box_img">
+                            <h3 class="lodging_box_title">Hôtel Chez Amina</h3>
+                            <p class="lodging_box_price">
+                                Nuit à partir de 96<span class="euro">€</span>
+                            </p>
+                            <div class="lodging_box_note">
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star gris"></i> 
+                            </div>
+                        </article>
+                                               
+                        <!-- Hôtel les mouettes -->
+                        <article class="lodging_box">
+                            <img src="images/hebergements/reisetopia.jpg" alt="Hôtel Les mouettes" class="lodging_box_img">
+                            <h3 class="lodging_box_title">Hôtel Les mouettes</h3>
+                            <p class="lodging_box_price">
+                                Nuit à partir de 76<span class="euro">€</span>
+                            </p>
+                            <div class="lodging_box_note">
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star gris"></i> 
+                            </div>
+                        </article>
+                        <!-- Hôtel de la mer -->
+                        <article class="lodging_box">
+                            <img src="images/hebergements/annie-spratt.jpg" alt="Hôtel de la mer" class="lodging_box_img">
+                            <h3 class="lodging_box_title">Hôtel de la mer</h3>
+                            <p class="lodging_box_price">
+                                Nuit à partir de 46<span class="euro">€</span>
+                            </p>
+                            <div class="lodging_box_note">
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star gris"></i> 
+                            </div>
+                        </article>
+                         <!-- Auberge La Canebière -->
+                         <article class="lodging_box">
+                            <img src="images/hebergements/marcus-loke.jpg" alt="Auberge La Canebière" class="lodging_box_img">
+                            <h3 class="lodging_box_title">Auberge La Canebière</h3>
+                            <p class="lodging_box_price">
+                                Nuit à partir de 25<span class="euro">€</span>
+                            </p>
+                            <div class="lodging_box_note">
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star gris"></i> 
+                            </div>
+                         </article>
+                        <!-- Auberge le panier -->
+                        <article class="lodging_box">
+                            <img src="images/hebergements/nicate-lee.jpg" alt="Auberge Le Panier" class="lodging_box_img">
+                            <h3 class="lodging_box_title">Auberge Le Panier</h3>
+                            <p class="lodging_box_price">
+                                Nuit à partir de 23<span class="euro">€</span>
+                            </p>
+                            <div class="lodging_box_note">
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star bleu"></i>
+                                <i class="fa-solid fa-star gris"></i> 
+                            </div>
+                        </article>
+                        
+                    </div>
+                    <!-- More -->
+                    <p class="more_link">Afficher plus</p>
+                </div> 
+
+                <!-- Popular -->
+                <div class="popular_section">
+
+                    <div class="popular_section_head">
+                        <h2 class="popular_title">Les plus populaires</h2>
+                        <i class="fas fa-chart-line popular_icon"></i>
+                    </div>
+
+                    <div class="popular_block">
+                        <!-- Hôtel Le soleil du matin -->
+                        <article class="popular_box">
+                            <img src="images/hebergements/emile-guillemot.jpg" alt="Hôtel Le soleil du matin" class="popular_box_img">
+                            <div class="popular_box_text">
+                                <h3 class="lodging_box_title title_size">Hôtel Le soleil du matin</h3>
+                                <p class="lodging_box_price price_size">
+                                    Nuit à partir de 25<span class="euro">€</span>
+                                </p>
+                                <div class="lodging_box_note margin">
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star gris"></i> 
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Chambre d’hôte Au cœur de l’eau -->
+                        <article class="popular_box">
+                            <img src="images/hebergements/aw-creative.jpg" alt="Chambres d’hôtes Au cœur de l’eau" class="popular_box_img">
+                            <div class="popular_box_text">
+                                <h3 class="lodging_box_title title_size2">Chambres d’hôtes Au cœur de l’eau</h3>
+                                <p class="lodging_box_price taille price_size">
+                                    Nuit à partir de 71<span class="euro">€</span></p>
+                                <div class="lodging_box_note margin1">
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star gris"></i> 
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Hôtel Bleu et Blanc -->
+                        <article class="popular_box">
+                            <img src="images/hebergements/febrian-zakaria2.jpg" alt="Hôtel Bleu et Blanc" class="popular_box_img">
+                            <div class="popular_box_text">
+                                <h3 class="lodging_box_title title_size">Hôtel Bleu et Blanc</h3>
+                                <p class="lodging_box_price price_size">
+                                    Nuit à partir de 68<span class="euro">€</span></p>
+                                <div class="lodging_box_note margin2">
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star bleu"></i>
+                                    <i class="fa-solid fa-star gris"></i> 
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Marseille -->
+            <section class="sightseeing">
+                <h2 class="sightseeing_title" id="activité">Activités à Marseille</h2>
+
+                <div class="sightseeing_block">
+                    <!-- Vieux-Port -->
+                    <div class="sightseeing_box">
+                        <img src="images/activites/reno-laithienne.jpg" alt="Vieux-Port" class="sightseeing_box_img">
+                        <p class="sightseeing_box_text">Vieux-Port</p>
+                    </div>
+                    <!-- fort de Pomègues -->
+                    <div class="sightseeing_box">
+                        <img src="images/activites/paul-hermann.jpg" alt="Fort de Pomègues" class="sightseeing_box_img">
+                        <p class="sightseeing_box_text center">Fort de Pomègues</p>
+                    </div>
+                    <!-- parc national des Calanques -->
+                    <div class="sightseeing_box">
+                        <img src="images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques" class="sightseeing_box_img">
+                        <p class="sightseeing_box_text center1">Parc national des Calanques</p>
+                    </div>
+                    <!-- Notre Dame de la garde -->
+                    <div class="sightseeing_box">
+                        <img src="images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde" class="sightseeing_box_img">
+                        <p class="sightseeing_box_text center1">Notre-Dame-de-la-Garde</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- footer -->
+
+        <footer class="footer">
+            <!-- A Propos -->
+            <div class="footer_block">
+                <h3 class="footer_block_title">À propos</h3>
+                <p class="footer_block_link">
+                    <a href="#">Fonctionnement du site</a>
+                </p>
+                <p class="footer_block_link">
+                    <a href="#">Conditions générales</a>
+                </p>
+                <p class="footer_block_link">
+                    <a href="#">Données et confidentialité</a>
+                </p>
+            </div>
+            <!-- Nos hébergements -->
+            <div class="footer_block footer_margin">
+                <h3 class="footer_block_title">Nos hébergements</h3>
+                <p class="footer_block_link">
+                    <a href="#">Charte qualité</a>
+                </p>
+                <p class="footer_block_link">
+                    <a href="#">Proposer votre hôtel</a>
+                </p>
+            </div>
+            <!-- Assistance -->
+            <div class="footer_block">
+                <h3 class="footer_block_title">Assistance</h3>
+                <p class="footer_block_link">
+                    <a href="#">Centre d’aide</a>
+                </p>
+                <p class="footer_block_link">
+                    <a href="#">Nous contacter</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
